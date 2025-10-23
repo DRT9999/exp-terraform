@@ -1,4 +1,4 @@
-variable "components" {
+variable "comp" {
 
 }
 variable "env" {
