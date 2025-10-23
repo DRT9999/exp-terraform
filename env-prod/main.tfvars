@@ -2,19 +2,19 @@ env ="prod"
 
 comp = {
 
-    frontend {
+    frontend = {
         name ="frontend"
         instance_type ="t2.micro"
         port_no = 80
     }
 
-    mysql {
+    mysql ={
         name ="mysql"
         instance_type ="t2.micro"
         port_no =80
     }
 
-    backend{
+    backend ={
         name="backend"
         instance_type ="t2.micro"
         port_no =80
