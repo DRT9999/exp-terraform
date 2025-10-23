@@ -4,7 +4,7 @@ module "frontend" {
     instance_type = var.comp["frontend"]["instance_type"]
     name = var.comp["frontend"]["name"]
     env= var.env
-    port_no= var.comp["forntend"]["port_no"]
+    port_no= var.comp["frontend"]["port_no"]
 }
 
 module "backend" {
