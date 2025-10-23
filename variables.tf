@@ -1,0 +1,6 @@
+variable "components" {
+
+}
+variable "env" {
+
+}
