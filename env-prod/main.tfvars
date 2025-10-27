@@ -20,3 +20,5 @@ comp = {
         port_no =80
     }
 }
+
+prometheus_node=["172.31.24.217/32"]

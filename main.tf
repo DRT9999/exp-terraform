@@ -5,6 +5,8 @@ module "frontend" {
     name = var.comp["frontend"]["name"]
     env= var.env
     port_no= var.comp["frontend"]["port_no"]
+    promethus_node =var.prometheus_node
+
 }
 
 module "backend" {
@@ -14,6 +16,8 @@ module "backend" {
     name = var.comp["backend"]["name"]
     env= var.env
     port_no= var.comp["backend"]["port_no"]
+    promethus_node =var.prometheus_node
+
 }
 
 module "mysql" {
@@ -23,6 +27,8 @@ module "mysql" {
         name = var.comp["mysql"]["name"]
         env= var.env
         port_no= var.comp["mysql"]["port_no"]
+        promethus_node =var.prometheus_node
+
 }
 
 
